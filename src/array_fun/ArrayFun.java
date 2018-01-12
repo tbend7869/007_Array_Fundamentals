@@ -7,20 +7,22 @@ public class ArrayFun {
 	public void showInstructions() {
 		
 		// Next time: Fix this tedious mess of code with an ARRAY - YEAH!
+		String[] msgArray = {
+				"Essential rules for arrays",
+				"1. Arrays have a FIXED length!!! At the time they are created.",
+				"2. Two ways to set array size:",
+				"-- one way is to set [size]",
+				"-- other way is to set size from initial data {n1,n2..}\\",
+				"Dynamic - when program is running:",
+				"Can NOT NOT NO WAY NO HOW change size of the array11",
+				"But OF Course you can change values!"
+					
+		};
 		
-		String msg = "Essential rules for arrays";
-		String msg1 = "1. Arrays have a FIXED length!!! At the time they are created.";
-		String msg3 = "2. Two ways to set array size:";
-		String msg4 = "-- one way is to set [size]";
-		String msg5 = "-- other way is to set size from initial data {n1,n2..}\\";
-		String msg6 = "Dynamic - when program is running:";
-		String msg7 = "Can NOT NOT NO WAY NO HOW change size of the array11";
-		String msg8 = "But OF Course you can change values!";
-		
-		msg = (msg + "\n" +msg1 + "\n" + msg3 + "\n" + msg4 + "\n" + msg5 + "\n" + msg6 + "\n" + msg7 + "\n" + msg8);
 		
 		
-		JOptionPane.showMessageDialog(null, msg);
+		
+		JOptionPane.showMessageDialog(null, msgArray);
 		
 	}
 
@@ -48,7 +50,7 @@ public class ArrayFun {
 		
 		
 		//Second method that combines size & data in one step
-		int[] intTwoTest = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int[] intTwoTest = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 		
 		System.out.println("\nStarting test of intTest[]\n");
 		for (int i = 0; i < intTest.length; i++) {
